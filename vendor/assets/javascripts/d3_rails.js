@@ -1,1 +1,10 @@
 //= require d3
+//= require d3.chart
+//= require d3.layout
+//= require d3.csv.min
+//= require d3.geo
+//= require d3.geom
+//= require d3.time
+//= require science
+//= require science.lin
+//= require science.stats

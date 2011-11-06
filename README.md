@@ -12,6 +12,10 @@ handle interactivity, and incorporate smooth transitions and staged animations
 into your pages. You can use D3 as a visualization framework (like Protovis),
 or you can use it to build dynamic pages (like jQuery).
 
+# D3 Version
+
+The current release of this gem is using **D3 v=2.5.0**
+
 ### Installation
 
 This gem should work out of the box. All you have to do is add the gem to your Gemfile: 

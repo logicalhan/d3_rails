@@ -14,7 +14,23 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.5.1**
+The current release of this gem is using **D3 v=2.6.0**
+**Last Updated 11-23-2011**
+
+# Included Javascripts
+**minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**
+
+	colorbrewer.js
+	d3_csv.js
+	d3.js
+	d3.chart.js
+	d3.geo.js
+	d3.geom.js
+	d3.layout.js
+	d3.time.js
+	science.js
+	science.lin.js
+	science.stats.js
 
 ### Installation
 

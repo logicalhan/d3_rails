@@ -14,8 +14,8 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.7.1**
-**Last Updated 12-30-2011**
+The current release of this gem is using **D3 v=2.7.2**
+**Last Updated 1-19-2012**
 
 # Included Javascripts
 **minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**

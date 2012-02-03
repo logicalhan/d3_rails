@@ -14,8 +14,8 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.7.3**
-**Last Updated 2-1-2012**
+The current release of this gem is using **D3 v=2.7.4**
+**Last Updated 2-2-2012**
 
 # Included Javascripts
 **minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**
@@ -63,3 +63,6 @@ Bundle installing d3_rails will add the main d3.js file to your application. How
 	//= require d3.chart
 	etc.. 
 	
+### Versioning
+
+Version numbers of this gem have been changed as of **2-2-2012**  to reflect the d3 version numbers. 

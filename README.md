@@ -14,8 +14,8 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.7.4**
-**Last Updated 2-2-2012**
+The current release of this gem is using **D3 v=2.7.5**
+**Last Updated 2-21-2012**
 
 # Included Javascripts
 **minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**
@@ -32,6 +32,20 @@ The current release of this gem is using **D3 v=2.7.4**
 	science.lin.js
 	science.stats.js
 
+# D3 charting module
+
+** D3 charts can be be included in your rails application by including the following line in your javascripts manifest **
+
+	//= require d3_chart_module
+
+This will include the following javascripts to your application:
+
+	box.js
+	bullet.js
+	chart.js
+	horizon.js
+	qq.js
+	
 ### Installation
 
 This gem should work out of the box. All you have to do is add the gem to your Gemfile: 

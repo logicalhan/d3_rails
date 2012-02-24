@@ -1,1 +1,1 @@
-//= require self
+//= require_self

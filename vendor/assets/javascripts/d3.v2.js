@@ -1,1 +1,1 @@
-//= require d3/d3.v2.js
+//= require d3/d3.v2

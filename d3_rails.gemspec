@@ -5,7 +5,7 @@ require "d3_rails/version"
 Gem::Specification.new do |s|
   s.name        = "d3_rails"
   s.version     = D3Rails::VERSION
-  s.authors     = ["Han"]
+  s.authors     = ["Han Kang", "Cynthia Kiser", "Byron Anderson", "Johnathan Pulos"]
   s.email       = ["han@logicallsat.com"]
   s.homepage    = ""
   s.summary     = %q{D3 automated install for Rails 3.1+}

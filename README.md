@@ -2,7 +2,9 @@
 
 **D3_Rails** is a small, lightweight gem which allows you to include any 
 and all of D3 Javascripts into your 3.1 Rails application, merely by 
-including any desired D3 files into your application.js manifest. 
+including any desired D3 files into your application.js manifest. You can
+also include supplemental libraries to your rails app, such as 'morris.js'
+and 'tesseract.js' by including them in your manifest.
 
 # About D3 
 
@@ -14,8 +16,8 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.8** (though for convenience I have left version 2.7.5 in the gem so you can still include your modules manually since rails will compile your javascripts into one file in the end anyway)
-**Last Updated 2-27-2012**
+The current release of this gem is using **D3 v=2.8.1** (though for convenience I have left version 2.7.5 in the gem so you can still include your modules manually since rails will compile your javascripts into one file in the end anyway)
+**Last Updated 3-22-2012**
 
 # Included Javascripts
 **minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**
@@ -32,7 +34,15 @@ The current release of this gem is using **D3 v=2.8** (though for convenience I 
 	science.lin.js
 	science.stats.js
 
-# D3 charting module
+## Additional modules:
+
+	There are a few additional modules/js libraries included for convenience in this gem:
+
+	morris.js  
+	tesseract.js
+	d3 charting module
+
+## D3 charting module
 
 ** D3 charts can be be included in your rails application by including the following line in your javascripts manifest **
 
@@ -45,7 +55,19 @@ This will include the following javascripts to your application:
 	chart.js
 	horizon.js
 	qq.js
-	
+
+## Tesseract
+
+** Tesseract can be be included in your rails application by including the following line in your javascripts manifest **
+
+	//= require tesseract
+
+## Morris
+
+** Morris can also be included in your application with the following additional line of code for your javascripts manifest.
+
+  //= require morris
+
 ### Installation
 
 This gem should work out of the box. All you have to do is add the gem to your Gemfile: 

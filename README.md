@@ -16,8 +16,8 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.9.1** (though for convenience I have left version 2.7.5 in the gem so you can still include your modules manually since rails will compile your javascripts into one file in the end anyway)
-**Last Updated 4-23-2012**
+The current release of this gem is using **D3 v=2.9.2** (though for convenience I have left version 2.7.5 in the gem so you can still include your modules manually since rails will compile your javascripts into one file in the end anyway)
+**Last Updated 5-18-2012**
 
 # Included Javascripts
 **minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**
@@ -33,40 +33,7 @@ The current release of this gem is using **D3 v=2.9.1** (though for convenience 
 	science.js
 	science.lin.js
 	science.stats.js
-
-## Additional modules:
-
-	There are a few additional modules/js libraries included for convenience in this gem:
-
-	morris.js  
-	tesseract.js
-	d3 charting module
-
-## D3 charting module
-
-** D3 charts can be be included in your rails application by including the following line in your javascripts manifest **
-
-	//= require d3_chart_module
-
-This will include the following javascripts to your application:
-
-	box.js
-	bullet.js
-	chart.js
-	horizon.js
-	qq.js
-
-## Tesseract
-
-** Tesseract can be be included in your rails application by including the following line in your javascripts manifest **
-
-	//= require tesseract
-
-## Morris
-
-** Morris can also be included in your application with the following additional line of code for your javascripts manifest.
-
-  //= require morris
+  d3.v2.js
 
 ### Installation
 

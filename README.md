@@ -1,3 +1,7 @@
+# (heads-up)
+
+Gem version 2.9.2 messes up in precompilation, therefore if you are precompiling your assets, you will need to upgrade to 2.9.2.rc1 (which has the same js files) in order to do so. Sorry for the inconvenience. 
+
 # D3_Rails
 
 **D3_Rails** is a small, lightweight gem which allows you to include any 

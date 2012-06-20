@@ -1,7 +1,3 @@
-# (heads-up)
-
-Gem version 2.9.2 messes up in precompilation, therefore if you are precompiling your assets, you will need to upgrade to 2.9.2.rc1 (which has the same js files) in order to do so. Sorry for the inconvenience. 
-
 # D3_Rails
 
 **D3_Rails** is a small, lightweight gem which allows you to include any 
@@ -20,11 +16,10 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=2.9.2** (though for convenience I have left version 2.7.5 in the gem so you can still include your modules manually since rails will compile your javascripts into one file in the end anyway)
-**Last Updated 5-18-2012**
+The current release of this gem is using **D3 v=2.9.4** (though for convenience I have left version 2.7.5 in the gem so you can still include your modules manually since rails will compile your javascripts into one file in the end anyway)
+**Last Updated 6-19-2012**
 
 # Included Javascripts
-**minified js files are not included, since the rails asset pipeline sorta necessitates the compiling (and likely minifying) your js files for production**
 
 	colorbrewer.js
 	d3_csv.js
@@ -38,6 +33,7 @@ The current release of this gem is using **D3 v=2.9.2** (though for convenience 
 	science.lin.js
 	science.stats.js
   d3.v2.js
+  d3.v2.min.js
 
 ### Installation
 

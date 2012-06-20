@@ -32,8 +32,8 @@ The current release of this gem is using **D3 v=2.9.4** (though for convenience 
 	science.js
 	science.lin.js
 	science.stats.js
-  d3.v2.js
-  d3.v2.min.js
+	d3.v2.js (this is the current d3 file)
+	d3.v2.min.js (this is the current minified d3 file)
 
 ### Installation
 

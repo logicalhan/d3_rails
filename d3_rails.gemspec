@@ -5,7 +5,7 @@ require "d3_rails/version"
 Gem::Specification.new do |s|
   s.name        = "d3_rails"
   s.version     = D3Rails::VERSION
-  s.authors     = ["Han Kang", "Cynthia Kiser", "Byron Anderson", "Johnathan Pulos"]
+  s.authors     = ["Michael Bostock","Han Kang", "Cynthia Kiser", "Byron Anderson", "Johnathan Pulos"]
   s.email       = ["han@logicallsat.com"]
   s.homepage    = ""
   s.summary     = %q{D3 automated install for Rails 3.1+}
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib", "vendor"]
 
   s.add_dependency "railties", ">= 3.1.0"
-  s.add_development_dependency "bundler", "~> 1.0.0"
+  s.add_development_dependency "bundler", '>= 1.0.0'
   s.add_development_dependency "rails",   "~> 3.1"
 end

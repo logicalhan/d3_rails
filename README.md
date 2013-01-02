@@ -14,8 +14,8 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=3.0.0** 
-**Last Updated 12-22-2012**
+The current release of this gem is using **D3 v=3.0.2** 
+**Last Updated 01-01-2013**
 
 # Included Javascripts
 

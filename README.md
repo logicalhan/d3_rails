@@ -14,13 +14,13 @@ or you can use it to build dynamic pages (like jQuery).
 
 # D3 Version
 
-The current release of this gem is using **D3 v=3.0.8** 
-**Last Updated 3-5-2013**
+The current release of this gem is using **D3 v=3.1.3** 
+**Last Updated 3-23-2013**
 
 # Included Javascripts
 
-	d3.v3.js // or, alternatively-named, d3.js
-	d3.v3.min.js // or, alternatively-named, d3.min.js
+	d3.js
+	d3.min.js
 
 ### Installation
 
@@ -38,7 +38,7 @@ For use with the asset pipeline, you can include the d3 javascript in your rails
 	//= require jquery
 	.
 	.
-	//= require d3.v3
+	//= require d3
 
 	
 ### Versioning

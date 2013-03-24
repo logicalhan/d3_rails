@@ -1,3 +1,3 @@
 module D3Rails
-  VERSION = "3.0.8"
+  VERSION = "3.1.3"
 end

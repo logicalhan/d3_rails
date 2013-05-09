@@ -1,4 +1,5 @@
 # D3_Rails
+## Version 3.1.6 (of d3)
 
 **D3_Rails** is a small, lightweight gem which allows you to include any 
 and all of D3 Javascripts into your 3.1 Rails application, merely by 
@@ -11,8 +12,6 @@ based on data. D3 can help you quickly visualize your data as HTML or SVG,
 handle interactivity, and incorporate smooth transitions and staged animations
 into your pages. You can use D3 as a visualization framework (like Protovis),
 or you can use it to build dynamic pages (like jQuery).
-
-# D3 Version 3.1.6
 
 # Included Javascripts
 

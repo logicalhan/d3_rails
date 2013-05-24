@@ -1,5 +1,5 @@
 # D3_Rails
-## Version 3.1.6 (of d3)
+## Version 3.1.9 (of d3 in most current gem)
 
 **D3_Rails** is a small, lightweight gem which allows you to include any 
 and all of D3 Javascripts into your 3.1 Rails application, merely by 

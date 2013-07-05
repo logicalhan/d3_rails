@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = D3Rails::VERSION
   s.authors     = ["Michael Bostock","Han Kang", "Cynthia Kiser", "Byron Anderson", "Johnathan Pulos"]
   s.email       = ["han@logicallsat.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/logical42/d3_rails"
   s.summary     = %q{D3 automated install for Rails 3.1+}
   s.description = %q{Gem installation of javascript framework for data visualization, D3}
 

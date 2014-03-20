@@ -1,5 +1,4 @@
-# D3_Rails
-## Version 3.4.3 (of d3 in most current gem)
+# D3_Rails [![Gem Version](https://badge.fury.io/rb/d3_rails.png)](http://badge.fury.io/rb/d3_rails)
 
 **D3_Rails** is a small, lightweight gem which allows you to include any
 and all of D3 Javascripts into your 3.1 Rails application, merely by
